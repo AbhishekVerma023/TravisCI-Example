@@ -21,9 +21,7 @@ class TestCalculator(unittest.TestCase):
         calculator = cal(self.a, self.b)
         self.assertEqual(calculator.sub(), 435)
 
-class TestAdd(unittest.TestCase):
-    def test_add_function(self):
-        self.assertEqual(add([1,2,3]), 6)
+
 
     # This test will fail
     # TODO: Improve the add function to ensure only array of numbers
