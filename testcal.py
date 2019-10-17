@@ -27,10 +27,10 @@ class TestAdd(unittest.TestCase):
 
     # This test will fail
     # TODO: Improve the add function to ensure only array of numbers
-    '''
+   
     def test_add_function(self):
         self.assertEqual(add([1,'test',3]), 6)
-    '''
+    
 
 if __name__ == '__main__':
     unittest.main(verbosity=2)
