@@ -29,7 +29,7 @@ class TestAdd(unittest.TestCase):
     # TODO: Improve the add function to ensure only array of numbers
    
     def test_add_function(self):
-        self.assertEqual(add([1,'test',3]), 6)
+        self.assertEqual(add([1,2,3]), 6)
     
 
 if __name__ == '__main__':
