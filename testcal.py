@@ -21,6 +21,11 @@ class TestCalculator(unittest.TestCase):
         calculator = cal(self.a, self.b)
         self.assertEqual(calculator.sub(), 435)
 
+        
+    def test_multiply(self):
+        '''Testing multiply method'''
+        calculator = cal(self.a, self.b)
+        self.assertEqual(calculator.mul(), 1756)
 
 
     # This test will fail
