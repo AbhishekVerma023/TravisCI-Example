@@ -27,6 +27,10 @@ class TestCalculator(unittest.TestCase):
         calculator = cal(self.a, self.b)
         self.assertEqual(calculator.mul(), 1756)
 
+    def test_multiply(self):
+        '''Testing divide method'''
+        calculator = cal(self.a, self.b)
+        self.assertEqual(calculator.div(), 109.75)
 
     # This test will fail
     # TODO: Improve the add function to ensure only array of numbers
